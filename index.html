@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Frozen Escape</title>
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  </head>
+  <body onload="init()">
+    <h1>Frozen Escape</h1>
+    <div class="canvas">
+    <canvas id="gameSpace" width=320px height=455px style="background: url('./assets/background.png')";  background-size: 100%; height: 95%; ></canvas>
+    </div>
+    <div class="buttons">
+      <br>
+      <button id="start" type="submit" onclick="startGame(), trackMusic()">Play</button>
+      <br>
+      <button type="submit" onclick="endGameBtt()">Stop</button>
+    </div>
+    <p id="textBox2"> </p>
+  </body>
+  <!-- Thanks to https://freesound.org/people/jalastram/sounds/386643/ for the jumping noise
+    Music: Eric Skiff - A Night Of Dizzy Spells and Arpanauts - Resistor Anthems - Available at http://EricSkiff.com/music-->
+</html>

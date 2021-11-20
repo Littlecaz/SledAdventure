@@ -1,0 +1,22 @@
+.canvas {
+  margin: auto;
+  width: 320px;
+  height: 455px;
+  border: 1px solid black;
+  background-color: #8FCEFF;
+}
+.buttons {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  display: flex;
+  left: 50%;
+  top: auto;
+}
